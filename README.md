@@ -46,7 +46,13 @@ type your favorite password.
 echo "favorite_password" > .private_key
 ```
 
-The password is used to generate the root certificate. Now, you should see new certificates located
+The password is used to generate the root certificate. 
+
+```
+make generate_cert
+```
+
+Now, you should see new certificates located
 in `cert` folder which is located in the root directory.
 
 <p align="center">
